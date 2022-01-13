@@ -11,7 +11,7 @@ export default function Home() {
 			</Head>
 
 			<main>
-				<Header tagline="A Frontend Web Developer" />
+				<Header name="Harun" tagline="A Frontend Web Developer" />
 				<p className="description">
 					Proactive, multi-skilled and a highly resourceful individual with a few
 					years experience manipulating data. High proficiency in several programming
