@@ -16,8 +16,8 @@ export default function Home() {
 					Proactive, multi-skilled and a highly resourceful individual with a few
 					years experience manipulating data. High proficiency in several programming
 					principles and languages. Passionate about improving things and carry this
-					out through analysis and problem solving.Always on the look out for a more
-					efficient way of doing things.
+					out through analysis and problem solving.Always on the look out for
+					efficient working patterns without negatively impacting the output.
 				</p>
 			</main>
 
