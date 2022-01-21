@@ -1,0 +1,8 @@
+.fixed {
+	display: flex;
+	flex-direction: row;
+}
+
+.logo {
+	border: 1px solid black;
+}

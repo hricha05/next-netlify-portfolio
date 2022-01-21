@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Header from '@components/Header';
+import Card from '@components/Card';
 import Footer from '@components/Footer';
+import Navigation from '@components/Navigation';
 
 export default function Home() {
 	return (
@@ -9,7 +11,9 @@ export default function Home() {
 				<title>Harun Richards</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-
+			<nav>
+				<Navigation />
+			</nav>
 			<main>
 				<Header name="Harun" tagline="A Frontend Web Developer" />
 				<p className="description">
@@ -19,6 +23,7 @@ export default function Home() {
 					out through analysis and problem solving.Always on the look out for
 					efficient working patterns without negatively impacting the output.
 				</p>
+				<Card title="Projects" />
 			</main>
 
 			<Footer />
