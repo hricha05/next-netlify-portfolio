@@ -2,19 +2,19 @@ import Head from 'next/head';
 import Header from '@components/Header';
 import Card from '@components/Card';
 import Footer from '@components/Footer';
-import Navigation from '@components/Navigation';
+import Navbar from '@components/Navbar';
 
 export default function Home() {
 	return (
-		<div className="container">
+		<div className='wrapper'>
 			<Head>
 				<title>Harun Richards</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<nav>
-				<Navigation />
-			</nav>
-			<main>
+            
+            <Navbar logo="HR"/>
+
+			<main className="container">
 				<Header name="Harun" tagline="A Frontend Web Developer" />
 				<p className="description">
 					Proactive, multi-skilled and a highly resourceful individual with a few
@@ -23,7 +23,6 @@ export default function Home() {
 					out through analysis and problem solving.Always on the look out for
 					efficient working patterns without negatively impacting the output.
 				</p>
-				<Card title="Projects" />
 			</main>
 
 			<Footer />

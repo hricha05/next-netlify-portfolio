@@ -1,6 +1,6 @@
-import styles from './Header.module.css';
+import styles from "./Header.module.css";
 
-export default function Header({name, tagline}) {
+export default function Header({ name, tagline }) {
 	return (
 		<div>
 			<h1 classname={styles.title}>
@@ -10,8 +10,3 @@ export default function Header({name, tagline}) {
 		</div>
 	);
 }
-
-Header.prototypes = {
-	name: PropTypes.string.isRequired,
-	tagline: PropTypes.string.isRequired,
-};
