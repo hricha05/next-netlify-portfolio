@@ -16,9 +16,11 @@
     color: #0f0f0f;
     padding-left: 25px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .resume {
+    padding: 5px;
     border: 1px solid blue;
     box-sizing: border-box;
 }
