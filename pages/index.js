@@ -6,15 +6,15 @@ import Navbar from '@components/Navbar';
 
 export default function Home() {
 	return (
-		<div className='wrapper'>
+		<div className="container">
 			<Head>
 				<title>Harun Richards</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
             
-            <Navbar logo="HR"/>
+            {/* <Navbar logo="HR"/> */}
 
-			<main className="container">
+			<main>
 				<Header name="Harun" tagline="A Frontend Web Developer" />
 				<p className="description">
 					Proactive, multi-skilled and a highly resourceful individual with a few
@@ -24,7 +24,6 @@ export default function Home() {
 					efficient working patterns without negatively impacting the output.
 				</p>
 			</main>
-
 			<Footer />
 		</div>
 	);

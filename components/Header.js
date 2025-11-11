@@ -2,7 +2,7 @@ import styles from "./Header.module.css";
 
 export default function Header({ name, tagline }) {
 	return (
-		<div>
+		<div classname={styles.header_wrapper}>
 			<h1 classname={styles.title}>
 				Hi, I'm <span className={styles.name}>{name}</span>
 			</h1>
