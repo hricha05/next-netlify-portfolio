@@ -1,12 +1,36 @@
+.root {
+    /* align-items: start; */
+    margin: 10px;
+    padding: 0;
+}
+
 .logo {
-    padding: 10px;
+    flex-basis: 5%;
+    padding: 12px;
     margin: 0;
 	border: 1px solid black;
+    position: absolute;
+    cursor: pointer;
+}
+
+.logo:before {
+    content: '';
+    background-color: #0cdd6632;
+    left: 0;
+    transition: all 0.5s ease-out;
+}
+
+.logo:hover, .logo:focus {
+    font-size: 2rem;
+    transition: all 0.5s ease-out;
+    color: #01692e;
+    /* position: relative; */
 }
 
 .navMenu {
     display: flex;
     justify-content: space-between;
+    flex-basis: 75%;
     align-items: flex-end;
     align-content: center;
     list-style: none;
@@ -20,6 +44,7 @@
 }
 
 .resume {
+    flex-basis: 25%;
     padding: 5px;
     border: 1px solid blue;
     box-sizing: border-box;

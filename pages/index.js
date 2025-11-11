@@ -12,7 +12,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
             
-            {/* <Navbar logo="HR"/> */}
+            <Navbar logo="HR"/>
 
 			<main>
 				<Header name="Harun" tagline="A Frontend Web Developer" />
