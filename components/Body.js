@@ -7,7 +7,6 @@ export default function Body({text}) {
             <p className={styles.body_text}>
                 {text}
             </p>
-            <Button link="/about" text="See More"/>
         </div>
     )
 };
