@@ -1,5 +1,4 @@
 import styles from "./Body.module.css";
-import Button from "./Button";
 
 export default function Body({text}) {
     return (
