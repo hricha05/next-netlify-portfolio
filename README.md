@@ -1,4 +1,4 @@
-# Next + Netlify Starter
+# Project Portfolio
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/89fa2403-6530-40e5-8d88-466f3989c870/deploy-status)](https://app.netlify.com/projects/harunrichards/deploys)
 
